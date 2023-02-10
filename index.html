@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'regal-blue': '#243c5a',
+                        "caribbean-green": "#0bd8a2",
+                        "dark-green": "#00343d",
+                        "opaque-green": "#26666b",
+                    }
+                }
+            }
+        }
+
+    </script>
+    <title>Tambora</title>
+</head>
+
+<body class="bg-dark-green">
+    <div class="overflow-hidden pt-32 flex justify-center h-full w-full px-32">
+
+        <img class="h-64" src="./assets/tambora_logo.png" alt="" srcset="">
+
+        <!-- 
+        <button class="bg-regal-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            Sign In
+        </button> -->
+
+    </div>
+    <div class="overflow-hidden flex  pt-10 justify-center h-full w-full px-32">
+        <p class="text-2xl text-white w-1/2">
+            Tambora is a powerfull management tool to test projects effectively,
+            reduce documentation times, and have an effective bug-tracking system.
+        </p>
+    </div>
+    <div class="overflow-hidden flex  pt-10 justify-center h-full w-full px-32">
+        <a href="https://staging.tambora.koombea.io"
+            class="bg-caribbean-green text-4xl hover:bg-opaque-green text-white font-bold py-3 px-10 rounded-full">
+            Sign in
+        </a>
+    </div>
+
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>
