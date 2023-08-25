@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <!-- Include Lightbox2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+    <!-- Include jQuery (required by Lightbox2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'regal-blue': '#243c5a',
+                        "caribbean-green": "#0bd8a2",
+                        "dark-green": "#00343d",
+                        "opaque-green": "#26666b",
+                    }
+                },
+
+            }
+        }
+
+    </script>
+    <title>Tambora - Changelog</title>
+</head>
+
+<body class="bg-dark-green">
+    <div class="mx-52 my-32  bg-white py-10 px-32  rounded-xl">
+        <div>
+            <div class="px-4 sm:px-0">
+                <h3 class="text-base font-semibold leading-7 text-gray-900">Changelog</h3>
+                <p class="mt-1  text-sm leading-6 text-gray-500">We are tracking and publishing new product
+                    features, improvements and bug
+                    fixes in this changelog. If you have any questions about any change, please let us know.</p>
+            </div>
+            <div class="mt-6 border-t border-gray-200">
+                <dl class="divide-y divide-gray-200">
+
+                    <!-- Version 1.2.0 -->
+                    <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-gray-900">
+                            <div>Version 1.2.0</div>
+                            <div class="text-gray-400">August 23, 2023</div>
+
+
+                        </dt>
+
+                        <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                            <section>
+                                <div class="font-semibold">Enhanced Module Creation</div>
+                                <div class="py-3">Added the capability to create modules and suites individually, giving
+                                    you
+                                    greater
+                                    flexibility in managing your testing environment.
+                                </div>
+                                <div>
+                                    <a href="assets/gifs/1.2.0/0001.gif" data-lightbox="image-0001">
+                                        <img src="assets/gifs/1.2.0/0001.gif" alt="Image">
+                                    </a>
+                                </div>
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Introduced Suite Grouping</div>
+                                <div class="py-3">Organize your suites into convenient modules and sub-modules. You can
+                                    now create,
+                                    update, and delete modules or suites independently, allowing for more structured
+                                    testing.
+                                </div>
+                                <div>
+                                    <a href="assets/gifs/1.2.0/0002.gif" data-lightbox="image-0002">
+                                        <img src="assets/gifs/1.2.0/0002.gif" alt="Image">
+                                    </a>
+                                </div>
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Automated Counter Functionality</div>
+                                <div class="py-3">Implemented an automated counter, providing real-time tracking of test
+                                    progress and
+                                    making it easier to monitor testing activities.
+                                </div>
+                                <div>
+                                    <a href="assets/gifs/1.2.0/0003.png" data-lightbox="image-0003">
+                                        <img src="assets/gifs/1.2.0/0003.png" alt="Image">
+                                    </a>
+
+                                </div>
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Streamlined Sign-In</div>
+                                <div class="py-3">Eliminated the recurring alert message that used to appear during
+                                    sign-in, improving
+                                    the user experience and workflow.
+
+                                </div>
+
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Accurate Dashboard Data</div>
+                                <div class="py-3">Addressed a dashboard issue, ensuring that the displayed test status
+                                    percentage
+                                    accurately reflects the current testing outcomes.
+                                </div>
+                                <div class="w-1/2 border-solid border-2 rounded-lg border-gray-600">
+                                    <a href="assets/gifs/1.2.0/0004.png" data-lightbox="image-0004">
+                                        <img src="assets/gifs/1.2.0/0004.png" alt="Image">
+                                    </a>
+                                    <!-- <img src="assets/gifs/1.2.0/0004.png" alt="" srcset=""> -->
+                                </div>
+
+                            </section>
+
+                        </dd>
+                    </div>
+
+                    <!-- Version 1.1.0 -->
+                    <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-gray-900">
+                            <div>Version 1.1.0</div>
+                            <div class="text-gray-400">August 8, 2023</div>
+
+                        </dt>
+                        <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+
+                            <section class="my-5">
+                                <div class="font-semibold">Automation Status Dropdown</div>
+                                <div class="py-3">In the Test form, we’ve introduced a convenient automation status
+                                    dropdown with the following options:
+                                </div>
+                                <ul class="list-disc ml-20">
+                                    <li>Not Automated</li>
+                                    <li>Automated</li>
+                                    <li>Cannot Be Automated
+                                    </li>
+                                    <li>No Need for Automation</li>
+                                    <li>Candidate for Automation
+                                    </li>
+                                    <li>Obsolete
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Clipboard Link Copy</div>
+                                <div class="py-3">You can now easily copy the link of a specific suite to your clipboard
+
+                                </div>
+
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Streamlined Roles</div>
+                                <div class="py-3"> We’ve merged the Manager and Developer roles into a single role named
+                                    “Tester.” Our role structure now consists of three roles:
+
+                                </div>
+                                <ul class="list-disc ml-20">
+                                    <li>Admin Organization
+                                    </li>
+                                    <li>Tester
+                                    </li>
+                                    <li>User
+
+                                    </li>
+
+                                </ul>
+
+                            </section>
+
+                            <section class="my-5">
+                                <div class="font-semibold">Test Creation Enhancements</div>
+                                <div class="py-3"> When creating a Test, you can choose between two templates: Text or
+                                    Steps. Additionally, we’ve introduced new fields:
+
+
+                                </div>
+                                <ul class="list-disc ml-20">
+                                    <li>Steps
+                                    </li>
+                                    <li>Pre-Conditions
+
+                                    </li>
+                                    <li>Expected Results
+
+
+                                    </li>
+
+                                </ul>
+
+                            </section>
+                        </dd>
+                    </div>
+
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
